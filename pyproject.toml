@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "polygon-agent-v2"
+version = "0.1.0"
+description = ""
+authors = ["Karim Mardhani <kmardhani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+polygon-api-client = "^1.13.7"
+pyautogen = {extras = ["retrievechat"], version = "^0.2.27"}
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
